@@ -20,9 +20,11 @@ html {
 
 body, button {
   font-family: "Albert Sans";
-  background-color: #56615d;
+/*  background-color: #56615d;*/
+  background-color: #33576f;
   font-weight: 200;
-  color: #c4cebc;
+/*  color: #c4cebc;*/
+  color: #8faab5;
 }
 
 body {
@@ -64,7 +66,8 @@ nav{
 }
 
 a,b {
-  color: #f6f6f4;
+/*  color: #f6f6f4;*/
+  color: #c7dbe2;
   font-weight: 300;
   text-decoration: none;
 }
@@ -106,9 +109,9 @@ nowrap {
   color: #f4f4f0;
 }
 
-.selected {
+/*.selected {
   color: #f4f4f0;
-}
+}*/
 
 .button {
   border: none;
@@ -117,14 +120,15 @@ nowrap {
   transition: 0.3s;
 }
 
-.button:hover {
-  color: #f6f6f4;
+.button:hover, .selected {
+/*  color: #f6f6f4;*/
+  color: #c7dbe2;  
 }
 
-.selected {
+/*.selected {
   color: #f6f6f4;
 }
-
+*/
 .fade-in{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
 
 .publications {
