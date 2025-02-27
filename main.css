@@ -20,17 +20,16 @@ html {
 body, button {
   font-family: "Albert Sans";
   font-weight: 200;
-  background-color: #35558A;
-  color: #A1B5D0;
-/*  color: #778493;*/
+  background-color: #364042;
+  color: #8E9394;
 }
 
 button, .monospace {
-  color: #6B8CC5;
+  color: #6e7576 ;
 }
 
 a,b, .button:hover, .selected  {
-  color: #e1e7ef;
+  color: #b7bbbb;
   font-weight: 225;
   text-decoration: none;
 }
