@@ -20,11 +20,16 @@ html {
 
 body, button {
   font-family: "Albert Sans";
-/*  background-color: #56615d;*/
-  background-color: #33576f;
   font-weight: 200;
-/*  color: #c4cebc;*/
-  color: #8faab5;
+  background-color: #31363A;
+  color: #77848c;
+
+}
+
+a,b, .button:hover, .selected  {
+  color: #bcc2c7;
+  font-weight: 225;
+  text-decoration: none;
 }
 
 body {
@@ -57,7 +62,7 @@ nav{
 
   button {
     font-size: 1vw;
-    font-weight: 300;
+    font-weight: 225;
   }
 
   nav {
@@ -65,12 +70,11 @@ nav{
   }
 }
 
-a,b {
-/*  color: #f6f6f4;*/
-  color: #c7dbe2;
-  font-weight: 300;
+/*a,b, .button:hover, .selected  {
+  color: #EEEFE5;
+  font-weight: 200;
   text-decoration: none;
-}
+}*/
 
 a:hover {
   text-decoration: underline;
@@ -81,9 +85,11 @@ nowrap {
 }
 
 .monospace {
-  font-family: "Roboto Mono";
+/*  font-family: "Roboto Mono";*/
+  font-family: "Inconsolata";
   font-weight: 300;
   font-size: 80%;
+/*  font-size: 68%;*/
 }
 
 .tab {
@@ -105,31 +111,15 @@ nowrap {
   transition: 0.3s;
 }
 
-.button:hover {
-  color: #f4f4f0;
-}
-
-/*.selected {
-  color: #f4f4f0;
+/*.button:hover, .selected {
+  color: #EEEFE5;
 }*/
 
-.button {
-  border: none;
-  font-size: 95%;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.button:hover, .selected {
-/*  color: #f6f6f4;*/
-  color: #c7dbe2;  
-}
-
-/*.selected {
-  color: #f6f6f4;
-}
-*/
 .fade-in{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.news {
+  font-size: 90%;
+}
 
 .publications {
   font-size: 80%;
