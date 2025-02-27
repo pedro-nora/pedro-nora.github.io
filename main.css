@@ -10,7 +10,6 @@ html {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #c4cebc; 
-
 }
 
 /* Handle on hover */
@@ -21,14 +20,17 @@ html {
 body, button {
   font-family: "Albert Sans";
   font-weight: 200;
-  background-color: #283849;
-  color: #687787;
+  background-color: #35558A;
+  color: #A1B5D0;
 /*  color: #778493;*/
+}
 
+button, .monospace {
+  color: #6B8CC5;
 }
 
 a,b, .button:hover, .selected  {
-  color: #bcc4cb;
+  color: #e1e7ef;
   font-weight: 225;
   text-decoration: none;
 }
@@ -88,7 +90,7 @@ nowrap {
 .monospace {
   font-family: "Inconsolata";
   font-weight: 300;
-  font-size: 70%;
+  font-size: 82%;
 /*  color: #DDD0B6;*/
 }
 
