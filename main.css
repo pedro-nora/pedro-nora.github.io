@@ -21,22 +21,13 @@ html {
 body, button {
   font-family: "Albert Sans";
   font-weight: 200;
-  background-color: #515763;
-  background-color: #234058;
   background-color: #283849;
-  color: #8F8A91;
-  color: #8AA3B1;
-  color: #92948D;
-  color: #525d6b;
-  color: #5d6a79;
   color: #687787;
+/*  color: #778493;*/
 
 }
 
 a,b, .button:hover, .selected  {
-  color: #EDEAE5;
-  color: #EDECE6;
-  color: #aeb7c0;
   color: #bcc4cb;
   font-weight: 225;
   text-decoration: none;
@@ -98,7 +89,7 @@ nowrap {
   font-family: "Inconsolata";
   font-weight: 300;
   font-size: 70%;
-  color: #DDD0B6;
+/*  color: #DDD0B6;*/
 }
 
 .tab {
