@@ -20,22 +20,22 @@ html {
 body, button {
   font-family: "Albert Sans";
   font-weight: 200;
-  background-color: #35454E;
-  color: #A29F93;
+  background-color: #323132;
+  color: #ABB4AD;
 }
 
 button, .monospace {
-  color: #5d6a71;
+  color: #5a5a5a;
 }
 
-a,b, {
-  color: #CEC4B4;
+a,b {
+  color: #EFEBE1;
   font-weight: 225;
   text-decoration: none;
 }
 
 .button:hover, .selected {
-  color: #CEC4B4;
+  color: #EFEBE1;
   font-weight: 200;
   text-decoration: none;
 }
