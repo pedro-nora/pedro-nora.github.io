@@ -39,7 +39,8 @@ a,b {
 }
 
 .button:hover, .selected {
-  color: #CEC4B4;
+/*  color: #919a9e;*/
+  color: #9ca4a7;
   font-weight: 200;
   text-decoration: none;
 }
