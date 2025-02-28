@@ -21,21 +21,25 @@ body, button {
   font-family: "Albert Sans";
   font-weight: 200;
   background-color: #323132;
-  color: #ABB4AD;
+  color: #878e89;
 }
 
 button, .monospace {
   color: #5a5a5a;
 }
 
+/*.monospace {
+  color: #DBB04A;
+}*/
+
 a,b {
-  color: #EFEBE1;
+  color: #EFEBE0;
   font-weight: 225;
   text-decoration: none;
 }
 
 .button:hover, .selected {
-  color: #EFEBE1;
+  color: #EFEBE0;
   font-weight: 200;
   text-decoration: none;
 }
@@ -94,7 +98,7 @@ nowrap {
 .monospace {
   font-family: "Inconsolata";
   font-weight: 300;
-  font-size: 82%;
+  font-size: 75%;
 }
 
 .tab {
