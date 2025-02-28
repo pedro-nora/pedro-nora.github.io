@@ -4,17 +4,17 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 0.2vw;
+  width: 0.3vw;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #c4cebc; 
+  background: #5d6a71; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #eaeee7; 
+  background: #A29F93; 
 }
 
 body, button {
@@ -28,10 +28,6 @@ button, .monospace {
   color: #5d6a71;
 }
 
-/*.monospace {
-  color: #DBB04A;
-}*/
-
 a,b {
   color: #CEC4B4;
   font-weight: 225;
@@ -39,7 +35,6 @@ a,b {
 }
 
 .button:hover, .selected {
-/*  color: #919a9e;*/
   color: #9ca4a7;
   font-weight: 200;
   text-decoration: none;
