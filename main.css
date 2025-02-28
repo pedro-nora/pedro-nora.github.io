@@ -20,22 +20,27 @@ html {
 body, button {
   font-family: "Albert Sans";
   font-weight: 200;
-  background-color: #364042;
-  color: #8E9394;
+  background-color: #35454E;
+  color: #A29F93;
 }
 
 button, .monospace {
-  color: #6e7576 ;
+  color: #5d6a71;
 }
 
-a,b, .button:hover, .selected  {
-  color: #b7bbbb;
+a,b, {
+  color: #CEC4B4;
   font-weight: 225;
   text-decoration: none;
 }
 
+.button:hover, .selected {
+  color: #CEC4B4;
+  font-weight: 200;
+  text-decoration: none;
+}
+
 body {
-  font-size:5vw;
   font-size: calc(1rem + 1.2vw);
   padding-top: 2%;
   padding-bottom: 16.5%;
@@ -90,7 +95,6 @@ nowrap {
   font-family: "Inconsolata";
   font-weight: 300;
   font-size: 82%;
-/*  color: #DDD0B6;*/
 }
 
 .tab {
